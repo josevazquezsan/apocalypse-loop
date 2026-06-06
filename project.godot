@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="apocalypse-loop"
+run/main_scene="uid://sqbe65oaipso"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*uid://dr5r6u2feq6aj"
 
 [physics]
 
