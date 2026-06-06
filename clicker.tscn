@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cypu1uhpdj14"]
+
+[ext_resource type="Script" uid="uid://d1c4f8fxqs48b" path="res://clicker.gd" id="1_lbgm6"]
+
+[node name="Clicker" type="Node2D" unique_id=1995186934]
+script = ExtResource("1_lbgm6")
+
+[node name="Button" type="Button" parent="." unique_id=1038344060]
+offset_left = 155.0
+offset_top = 118.0
+offset_right = 316.0
+offset_bottom = 149.0
+text = "Click to Earn Money"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

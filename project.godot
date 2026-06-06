@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 GameState="*uid://dr5r6u2feq6aj"
 
+[dotnet]
+
+project/assembly_name="apocalypse-loop"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -26,3 +30,5 @@ GameState="*uid://dr5r6u2feq6aj"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
