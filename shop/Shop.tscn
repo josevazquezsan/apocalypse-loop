@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://xbqavocqft4p"]
+
+[ext_resource type="Script" uid="uid://b8xsf4ew3l1mi" path="res://shop/Shop.gd" id="1_e2ga4"]
+
+[node name="Shop_tscn" type="Node2D" unique_id=2136550861]
+
+[node name="Shop" type="Control" parent="." unique_id=1272901581]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_e2ga4")
+
+[node name="Panel" type="Panel" parent="Shop" unique_id=351014447]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ScrollContainer" type="Node" parent="Shop" unique_id=385221541]
+
+[node name="VBoxContainer" type="Node" parent="Shop/ScrollContainer" unique_id=938315143]

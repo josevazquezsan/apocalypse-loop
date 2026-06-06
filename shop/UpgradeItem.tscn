@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://c8q23i7dt3hee"]
+
+[ext_resource type="Script" uid="uid://cxi7r8a48j30t" path="res://shop/UpgradeItem.gd" id="1_bphxe"]
+
+[node name="UpgradeItem_tscn" type="Node2D" unique_id=1463646119]
+
+[node name="UpgradeItem" type="Node" parent="." unique_id=1771822992]
+script = ExtResource("1_bphxe")
+
+[node name="VBoxContainer" type="Node" parent="UpgradeItem" unique_id=312933934]
+
+[node name="NameLabel" type="Label" parent="UpgradeItem/VBoxContainer" unique_id=1871425322]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="DescLabel" type="Label" parent="UpgradeItem/VBoxContainer" unique_id=1015082473]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="CostLabel" type="Label" parent="UpgradeItem" unique_id=350959056]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="BuyButton" type="Button" parent="UpgradeItem" unique_id=306061474]
+offset_right = 8.0
+offset_bottom = 8.0
