@@ -18,6 +18,21 @@ script = ExtResource("1_o5qli")
 custom_minimum_size = Vector2(0, 36)
 layout_mode = 2
 
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/Root/TopBar" unique_id=995391644]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="UI/Root/TopBar/HBoxContainer" unique_id=1340730274]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9372549, 0.3254902, 0.3137255, 1)
+theme_override_font_sizes/font_size = 11
+text = "APOCALYPSE LOOP"
+
+[node name="CountdownMini" type="Label" parent="UI/Root/TopBar/HBoxContainer" unique_id=980077707]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9372549, 0.3254902, 0.3137255, 1)
+text = "00:00.000  ▸  countdown"
+
 [node name="XPBar" type="PanelContainer" parent="UI/Root" unique_id=1885295078]
 custom_minimum_size = Vector2(0, 28)
 layout_mode = 2
