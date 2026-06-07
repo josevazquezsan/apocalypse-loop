@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d37erv2nmmckb"]
+
+[ext_resource type="Script" uid="uid://bpwxrpmcpbujb" path="res://reset_animation.gd" id="1_p13h1"]
+
+[node name="Reset_animation" type="Node2D" unique_id=549054081]
+script = ExtResource("1_p13h1")
+
+[node name="Label" type="Label" parent="." unique_id=736962101]
+offset_left = 193.0
+offset_top = 137.0
+offset_right = 313.0
+offset_bottom = 160.0
+text = "The World Ends"

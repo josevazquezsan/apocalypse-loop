@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="apocalypse-loop"
-run/main_scene="uid://sqbe65oaipso"
+run/main_scene="uid://cypu1uhpdj14"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
 
@@ -30,5 +30,5 @@ project/assembly_name="apocalypse-loop"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="gl_compatibility"
+renderer/rendering_method="mobile"
 renderer/rendering_method.mobile="gl_compatibility"

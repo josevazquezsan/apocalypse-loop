@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bm4nfue6p6e00"]
+
+[ext_resource type="Script" uid="uid://c2ycyert2038d" path="res://timer.gd" id="1_sgq5d"]
+
+[node name="auto_generator" type="Node2D" unique_id=1648713955]
+
+[node name="Timer" type="Timer" parent="." unique_id=1095964107]
+autostart = true
+script = ExtResource("1_sgq5d")
